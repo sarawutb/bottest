@@ -23,7 +23,7 @@ if ( sizeof($request_array['events']) > 0 )
     $reply_message = 'ระบบได้รับข้อความ ('.$text.') ของคุณแล้ว';
    }
    else
-    $reply_message = 'ระบบได้รับ '.ucfirst($event['message']['type']).' ของคุณแล้ว';
+    $reply_message = 'ระบบได้รับ '.ucfirst($event['message']['type']).' xxxของคุณแล้ว';
   
   }
   else
